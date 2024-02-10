@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Youtube Ad Skipper",
+  "name": "YT Ad Skipper",
   "version": "1.0",
-  "description": "Description of your extension",
+  "description": "YT Ad Skipper Chrome extension automatically skips ads on YouTube videos after a specified delay.",
   "permissions": ["activeTab"],
   "action": {
     "default_popup": "/index.html",
