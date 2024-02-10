@@ -15,7 +15,7 @@ To use this extension:
 
 Once the extension is installed:
 
-- Visit a YouTube page with an ad before or during a video.
+- Visit YouTube page with an ad before or during a video.
 - After a delay of 5 seconds, the extension will attempt to automatically skip the ad.
 
 ## Features
