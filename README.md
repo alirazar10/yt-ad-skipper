@@ -1,6 +1,6 @@
-# YouTube Ad Skipper Chrome Extension
+# YT Ad Skipper Chrome Extension
 
-The YouTube Ad Skipper Chrome extension automatically skips ads on YouTube videos after a specified delay.
+The YT Ad Skipper Chrome extension automatically skips ads on YouTube videos after a specified delay.
 
 ## Installation
 
