@@ -2,7 +2,8 @@
 
 // Function to find and click the YouTube ad skip button
 function clickSkipAdButton() {
-  const adSkipButton = document.querySelector('.ytp-ad-skip-button-modern.ytp-button');
+  const adSkipButton = document.querySelector('div.video-ads div.ytp-skip-ad button.ytp-skip-ad-button');
+  console.log(adSkipButton)
   if (adSkipButton) {
     adSkipButton.click();
   }
@@ -16,8 +17,8 @@ function checkForSkipButton() {
     setTimeout(() => {
       clickSkipAdButton(); // Attempt to click the skip button
       // Check again after a delay
-      setTimeout(checkForSkipButton, 5000); // Check every 5 seconds
-    }, 5000); // Check for the skip button after 5 seconds
+      setTimeout(checkForSkipButton, 3000); // Check every 3 seconds
+    }, 3000); // Check for the skip button after 5 seconds
   }
 }
 
